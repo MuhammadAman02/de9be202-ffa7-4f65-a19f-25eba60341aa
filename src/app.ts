@@ -1,3 +1,8 @@
+import dotenv from 'dotenv';
+
+// Load environment variables first
+dotenv.config();
+
 import Fastify from "fastify";
 import fastifySwagger from "@fastify/swagger";
 import fastifySwaggerUi from "@fastify/swagger-ui";
